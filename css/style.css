@@ -226,5 +226,15 @@ header .site-title{
     border: 1px solid var(--border);
 }
 
+.newseller {
+    margin-top: 8rem;
+}
+
+.slider-brand {
+    position: relative;
+    margin: 4rem 0;
+}
+
+
 
 
