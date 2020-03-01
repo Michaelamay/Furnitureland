@@ -211,3 +211,20 @@ header .site-title{
     color: white;
 }
 
+/* Slider four */
+.site-slider-four {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.slider-four {
+    padding: 0 0.4rem;
+}
+
+.slider-four .product img{
+    width: 80%;
+    border: 1px solid var(--border);
+}
+
+
+
