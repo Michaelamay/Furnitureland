@@ -37,7 +37,7 @@ $('.slider-three')
     infinite: false
 });
 
-// Four three
+// Four slider
 $('.slider-four')
 
 .not(".slick-intialized")
@@ -49,4 +49,18 @@ $('.slider-four')
     slidesToScroll:1,
     autoplaySpeed:3000,
     infinite: false
+});
+
+// Fiver slider
+$('.slider-five')
+
+.not(".slick-intialized")
+.slick({
+
+    prevArrow : ".slider-brand .prev",
+    nextArrow : ".slider-brand .next",
+    slidesToShow:6,
+    slidesToScroll:1,
+    autoplaySpeed:3000,
+    infinite: true
 });
