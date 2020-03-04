@@ -64,3 +64,17 @@ $('.slider-five')
     autoplaySpeed:3000,
     infinite: true
 });
+
+// Six slider
+$('.slider-six')
+
+.not(".slick-intialized")
+.slick({
+    prevArrow:"",
+    nextArrow:"",
+    autoplaySpeed:3000,
+    infinite:true,
+    autoplay:true,
+    dots:true
+});
+
