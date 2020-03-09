@@ -1,4 +1,34 @@
 
+const breakpoint = [
+{
+    breakpoint: 1280,
+    setting:{
+        slidesToShow: 4
+    }
+},
+{
+    breakpoint:1009,
+    setting:{
+        slidesToShow: 3
+    }
+},
+{
+    breakpoint:720,
+    setting:{
+        slidesToShow: 2
+    }
+},
+{
+    breakpoint:460,
+    setting:{
+        slidesToShow: 1
+    }
+
+}
+
+]
+
+// Slider one
 $('.slider-one')
 
 .not(".slick-intialized")
@@ -20,7 +50,8 @@ $('.slider-two')
     nextArrow : ".site-slider-two .next",
     slidesToShow:5,
     slidesToScroll:1,
-    autoplaySpeed:3000
+    autoplaySpeed:3000,
+    responsive: breakpoint
 });
 
 // slider three
@@ -34,7 +65,9 @@ $('.slider-three')
     slidesToShow:4,
     slidesToScroll:1,
     autoplaySpeed:3000,
-    infinite: false
+    infinite: false,
+    responsive: breakpoint
+
 });
 
 // Four slider
@@ -48,7 +81,8 @@ $('.slider-four')
     slidesToShow:4,
     slidesToScroll:1,
     autoplaySpeed:3000,
-    infinite: false
+    infinite: false,
+    responsive: breakpoint
 });
 
 // Fiver slider
@@ -62,7 +96,8 @@ $('.slider-five')
     slidesToShow:6,
     slidesToScroll:1,
     autoplaySpeed:3000,
-    infinite: true
+    infinite: true,
+    responsive: breakpoint
 });
 
 // Six slider
@@ -77,4 +112,6 @@ $('.slider-six')
     autoplay:true,
     dots:true
 });
+
+
 
