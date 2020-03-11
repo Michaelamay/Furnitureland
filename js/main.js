@@ -1,4 +1,3 @@
-
 const breakpoint = [
 {
     breakpoint: 1280,
@@ -100,7 +99,7 @@ $('.slider-five')
     responsive: breakpoint
 });
 
-// Six slider
+// Slider six
 $('.slider-six')
 
 .not(".slick-intialized")
